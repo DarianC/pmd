@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">SortMark</string>
+    <string name="titleAbt">Sorting algorithms</string>
+    <string name="descAbt">A sorting algorithm is an algorithm that puts elements of a list in a certain order.
+        The most-used orders are numerical order and lexicographical order. Efficient sorting is important for optimizing the use of other algorithms
+        (such as search and merge algorithms) which require input data to be in sorted lists.
+    </string>
+    <string name="bsortdesc">
+        Bubble sort is a simple sorting algorithm. The algorithm starts at the beginning of the data set. It compares the first two elements, and if the first is greater than the second, it swaps them. It continues doing this for each pair of adjacent elements to the end of the data set. It then starts again with the first two elements, repeating until no swaps have occurred on the last pass. This algorithm\'s average time and worst-case performance is O(n<sup>2</sup>), so it is rarely used to sort large, unordered data sets. Pros: it\'s very easy to implement, and that\'s why it\'s sometimes used when there isn\'t a large amount of data. You can see in the animation below how it works:
+    </string>
+    <string name="qsortdesc">
+        Quicksort is a divide and conquer algorithm which relies on a partition operation: to partition an array an element called a pivot is selected. All elements smaller than the pivot are moved before it and all greater elements are moved after it. This can be done efficiently in linear time and in-place. The lesser and greater sublists are then recursively sorted. This yields average time complexity of O(n log n), with low overhead, and thus this is a popular algorithm.
+    </string>
+    <string name="hsortdesc">
+        Heapsort is a much more efficient version of selection sort. It also works by determining the largest (or smallest) element of the list, placing that at the end (or beginning) of the list, then continuing with the rest of the list, but accomplishes this task efficiently by using a data structure called a heap, a special type of binary tree. Once the data list has been made into a heap, the root node is guaranteed to be the largest (or smallest) element. When it is removed and placed at the end of the list, the heap is rearranged so the largest element remaining moves to the root. Using the heap, finding the next largest element takes O(log n) time, instead of O(n) for a linear scan as in simple selection sort. This allows Heapsort to run in O(n log n) time, and this is also the worst case complexity.
+    </string>
+    <string name="finaldesc">
+        There are many other sorting algorithms and some of them don\'t even use comparisons to sort the elements (if you\'re interested, please refer to Radix sort, for example). This app deals with the 3 algorithms presented above.
+    </string>
+</resources>
